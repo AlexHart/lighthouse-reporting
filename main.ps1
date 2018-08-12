@@ -31,4 +31,5 @@ Write-Host "********************************************************************
 Write-Host "Process finished" -ForegroundColor Green
 Write-Host "********************************************************************************" -ForegroundColor Red
 
+# Open the reports folder.
 Invoke-Item $reportsPath
