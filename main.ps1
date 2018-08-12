@@ -30,3 +30,5 @@ Pop-Location
 Write-Host "********************************************************************************" -ForegroundColor Red
 Write-Host "Process finished" -ForegroundColor Green
 Write-Host "********************************************************************************" -ForegroundColor Red
+
+Invoke-Item $reportsPath
